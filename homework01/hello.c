@@ -24,5 +24,13 @@ int main() {
 
   printf("0x7ffffffe: %d, 0x7fffffff: %d\n", 0x7ffffffe, 0x7fffffff);
   printf("0x80000000: %d, 0x80000001: %d\n\n", 0x80000000, 0x80000001);
+
+  // start of part 4
+  int unsigned_x = 0xffffffff;
+  printf("0xffffffff as unsigned int: %u\n\n", unsigned_x);
+
+  // start of part 5
+   
+
   return 0;
 }
