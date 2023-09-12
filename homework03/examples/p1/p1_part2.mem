@@ -1,0 +1,7 @@
+// .text
+@0000 7103 // ldi r1, 3    label: main    target label: X
+@0001 8201 // ld r2, r1, 0
+@0002 f000 // sys 0
+
+// .data
+@0003 bead //     label: X
